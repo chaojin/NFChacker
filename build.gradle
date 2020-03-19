@@ -21,6 +21,17 @@ allprojects {
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        sctc_app {
+            keyAlias 'sctc_app'
+            keyPassword '123456'
+            storeFile file('sctc_app.jks')
+            storePassword '123456'
+            v1SigningEnabled false
+            v2SigningEnabled false
+
+        }
+    }
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     buildTypes {
