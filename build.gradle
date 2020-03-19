@@ -4,9 +4,6 @@ buildscript {
         jcenter()
         google()
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.1'
-    }
 }
 
 allprojects {
