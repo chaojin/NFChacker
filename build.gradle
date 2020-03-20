@@ -22,7 +22,7 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        sctc_app {
+        release {
             keyAlias 'sctc_app'
             keyPassword '123456'
             storeFile file('sctc_app.jks')
@@ -38,6 +38,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
         }
     }
 
