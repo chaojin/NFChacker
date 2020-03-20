@@ -27,8 +27,8 @@ android {
             keyPassword '123456'
             storeFile file('sctc_app.jks')
             storePassword '123456'
-            v1SigningEnabled false
-            v2SigningEnabled false
+            v1SigningEnabled true
+            v2SigningEnabled true
 
         }
     }
