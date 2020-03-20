@@ -42,7 +42,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 17
         versionCode 1
         versionName "V1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
